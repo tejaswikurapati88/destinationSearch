@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.img-class {
+  height: 250px;
+}
+.name {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.list-container {
+  margin: 20px;
+  list-style-type: none;
+}
+p {
+  font-size: 30px;
+}
+
+@media (max-width: 757px) {
+  .img-class {
+    height: 200px;
+  }
+  .name{
+    font-size: 15px;
+  }
+}
+@media (width: 768px) {
+  .img-class {
+    height: 180px;
+  }
+  .name {
+    font-size: 18px;
+  }
+}

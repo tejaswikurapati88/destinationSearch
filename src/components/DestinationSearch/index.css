@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+  height: 100vh;
+  width: 100%;
+  padding-top: 0px;
+}
+.main-heading {
+  color: #000000;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.search-cont {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+.search-bar {
+  background-color: transparent;
+  border: none;
+}
+.searchimg {
+  height: 20px;
+}
+.ul-container {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.ul-cont {
+  align-self: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 65%;
+}
+
+@media (max-width: 757px) {
+  .main-heading {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .ul-cont {
+    width: 100%;
+    padding: 0px;
+  }
+}
+@media (width: 320px) {
+  .ul-container {
+    padding-inline-start: 0px;
+  }
+}
+@media (width: 768px) {
+  .main-heading {
+    font-size: 40px;
+  }
+  .ul-cont {
+    width: 90%;
+  }
+}
+
+@media (width: 1024px) {
+  .main-heading {
+    font-size: 40px;
+  }
+  .ul-cont {
+    width: 85%;
+  }
+}
